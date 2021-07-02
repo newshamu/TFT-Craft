@@ -9,19 +9,19 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Item",
-"class": "FinishedItem",
-"language": "GDScript",
-"path": "res://src/FinishedItem.gd"
-}, {
 "base": "Node",
 "class": "Item",
 "language": "GDScript",
 "path": "res://src/Item.gd"
+}, {
+"base": "PanelContainer",
+"class": "ItemRecipePanel",
+"language": "GDScript",
+"path": "res://src/UI/ItemRecipePanel.gd"
 } ]
 _global_script_class_icons={
-"FinishedItem": "",
-"Item": ""
+"Item": "",
+"ItemRecipePanel": ""
 }
 
 [application]
@@ -34,6 +34,15 @@ config/icon="res://icon.png"
 
 Globals="*res://src/Globals.gd"
 ItemRepository="*res://src/ItemRepository.gd"
+
+[display]
+
+window/size/width=600
+window/size/height=2048
+window/size/test_width=300
+window/size/test_height=1024
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
 
 [rendering]
 

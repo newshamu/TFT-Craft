@@ -19,9 +19,6 @@ func _init():
 	
 	_generate_components(item_data["items"]["components"])
 	_generate_finished(item_data["items"]["finished"])
-	
-	print(components)
-	print(finished)
 
 
 func _generate_components(item_data: Dictionary):
@@ -31,10 +28,12 @@ func _generate_components(item_data: Dictionary):
 		var items: Array = item_data[group]
 		
 		for it in items:
-			print(it)
 			# Pass in item name, tier, group, icon filepath, and list of components (empty in this case)
 			var item := Item.new(it["name"], "components", group, it["icon"], [])
 			components[item.item_name] = item
+	
+	print("Loaded " + str(components.keys().size()) + " component items")
+	print("Loaded " + str(finished.keys().size()) + " finished items")
 
 
 func _generate_finished(item_data: Dictionary):
