@@ -4,7 +4,7 @@ extends Node
 var components: Dictionary
 var finished: Dictionary
 
-const ITEM_FILE_PATH: String = "res://src/items.json"
+const ITEM_FILE_PATH: String = "items.json"
 
 
 func _init():
@@ -33,7 +33,6 @@ func _generate_components(item_data: Dictionary):
 			components[item.item_name] = item
 	
 	print("Loaded " + str(components.keys().size()) + " component items")
-	print("Loaded " + str(finished.keys().size()) + " finished items")
 
 
 func _generate_finished(item_data: Dictionary):
@@ -46,3 +45,5 @@ func _generate_finished(item_data: Dictionary):
 			# Pass in item name, tier, group, icon filepath, and list of components
 			var item := Item.new(it["name"], "finished", group, it["icon"], it["components"])
 			finished[item.item_name] = item
+	
+	print("Loaded " + str(finished.keys().size()) + " finished items")

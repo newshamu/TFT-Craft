@@ -9,10 +9,20 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "TextureButton",
+"class": "FinishedItemButton",
+"language": "GDScript",
+"path": "res://src/UI/FinishedItemButton.gd"
+}, {
 "base": "Node",
 "class": "Item",
 "language": "GDScript",
 "path": "res://src/Item.gd"
+}, {
+"base": "PanelContainer",
+"class": "ItemRecipeContainer",
+"language": "GDScript",
+"path": "res://src/ItemRecipeContainer.gd"
 }, {
 "base": "PanelContainer",
 "class": "ItemRecipePanel",
@@ -20,7 +30,9 @@ _global_script_classes=[ {
 "path": "res://src/UI/ItemRecipePanel.gd"
 } ]
 _global_script_class_icons={
+"FinishedItemButton": "",
 "Item": "",
+"ItemRecipeContainer": "",
 "ItemRecipePanel": ""
 }
 
@@ -37,10 +49,10 @@ ItemRepository="*res://src/ItemRepository.gd"
 
 [display]
 
-window/size/width=600
-window/size/height=2048
-window/size/test_width=300
-window/size/test_height=1024
+window/size/width=576
+window/size/height=1536
+window/size/test_width=288
+window/size/test_height=768
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
 

@@ -1,10 +1,18 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://src/UI/ItemRecipePanel.gd" type="Script" id=1]
+[ext_resource path="res://assets/images/items/finished/standard/Deathblade_TFT_item.png" type="Texture" id=2]
+[ext_resource path="res://assets/images/items/components/standard/B._F._Sword_item.png" type="Texture" id=3]
+[ext_resource path="res://assets/fonts/aleo/Aleo-Regular.otf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 4 )
 
 [node name="ItemRecipePanel" type="PanelContainer"]
+anchor_right = 1.0
 margin_right = 14.0
-margin_bottom = 14.0
+margin_bottom = 78.0
 size_flags_horizontal = 3
 script = ExtResource( 1 )
 __meta__ = {
@@ -14,23 +22,46 @@ __meta__ = {
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 23.0
-margin_bottom = 10.0
+margin_right = 583.0
+margin_bottom = 88.0
+size_flags_horizontal = 3
 
 [node name="FinishedItem" type="TextureButton" parent="HBoxContainer"]
-margin_bottom = 3.0
+margin_right = 64.0
+margin_bottom = 81.0
+texture_normal = ExtResource( 2 )
+
+[node name="FinishedItemLabel" type="Label" parent="HBoxContainer"]
+margin_left = 68.0
+margin_right = 252.0
+margin_bottom = 81.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.803922, 0.803922, 0.803922, 1 )
+text = "Deathblade"
+valign = 1
+autowrap = true
+max_lines_visible = 2
 
 [node name="VSeparator" type="VSeparator" parent="HBoxContainer"]
-margin_left = 4.0
-margin_right = 8.0
-margin_bottom = 3.0
+margin_left = 436.0
+margin_right = 440.0
+margin_bottom = 81.0
+size_flags_horizontal = 10
 
 [node name="Component1" type="TextureRect" parent="HBoxContainer"]
-margin_left = 12.0
-margin_right = 12.0
-margin_bottom = 3.0
+margin_left = 444.0
+margin_right = 508.0
+margin_bottom = 81.0
+size_flags_horizontal = 8
+texture = ExtResource( 3 )
 
 [node name="Component2" type="TextureRect" parent="HBoxContainer"]
-margin_left = 16.0
-margin_right = 16.0
-margin_bottom = 3.0
+margin_left = 512.0
+margin_right = 576.0
+margin_bottom = 81.0
+size_flags_horizontal = 8
+texture = ExtResource( 3 )
+
+[connection signal="pressed" from="HBoxContainer/FinishedItem" to="." method="_on_FinishedItem_pressed"]

@@ -19,4 +19,4 @@ func _init(_item_name: String, _tier: String, _group: String,
 	icon = load("res://assets/images/items/" + tier + "/" + group + "/" + _icon_name)
 	
 	# Load components
-	
+	components = _components
