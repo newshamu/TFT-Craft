@@ -12,8 +12,8 @@ __meta__ = {
 }
 
 [node name="GridContainer" type="GridContainer" parent="."]
-margin_left = 7.0
-margin_top = 7.0
-margin_right = 569.0
-margin_bottom = 761.0
+margin_right = 562.0
+margin_bottom = 754.0
+size_flags_horizontal = 5
+size_flags_vertical = 5
 columns = 8
