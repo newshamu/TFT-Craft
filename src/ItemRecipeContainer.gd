@@ -2,7 +2,7 @@
 extends PanelContainer
 class_name ItemRecipeContainer
 
-onready var container: VBoxContainer = $VBoxContainer
+onready var container: VBoxContainer = $ScrollContainer/VBoxContainer
 
 var ItemRecipePanelScene: PackedScene = preload("res://src/UI/ItemRecipePanel.tscn")
 
