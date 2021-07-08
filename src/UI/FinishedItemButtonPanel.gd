@@ -13,5 +13,6 @@ func _ready():
 		var button: FinishedItemButton = FIB.instance()
 		button.texture_normal = ItemRepository.finished[item].icon
 		button.item = ItemRepository.finished[item]
+		button.scale_image()
 		button.connect("finished_item_selected", item_recipe_container, "_on_finished_item_selected")
 		container.add_child(button)

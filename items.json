@@ -5,12 +5,47 @@
         {
             "shadow":
             [
-
+				{
+					"name": "Shadow Belt",
+					"icon": "Shadow_Belt_TFT_item.png"
+				},
+				{
+					"name": "Shadow Bow",
+					"icon": "Shadow_Bow_TFT_item.png"
+				},
+				{
+					"name": "Shadow Cloak",
+					"icon": "Shadow_Cloak_TFT_item.png"
+				},
+				{
+					"name": "Shadow Gloves",
+					"icon": "Shadow_Gloves_TFT_item.png"
+				},
+				{
+					"name": "Shadow Rod",
+					"icon": "Shadow_Rod_TFT_item.png"
+				},
+				{
+					"name": "Shadow Spatula",
+					"icon": "Shadow_Spatula_TFT_item.png"
+				},
+				{
+					"name": "Shadow Sword",
+					"icon": "Shadow_Sword_TFT_item.png"
+				},
+				{
+					"name": "Shadow Tear",
+					"icon": "Shadow_Tear_TFT_item.png"
+				},
+				{
+					"name": "Shadow Vest",
+					"icon": "Shadow_Vest_TFT_item.png"
+				}
             ],
             "standard":
             [
                 {
-                    "name": "B. F. Sword",
+                    "name": "B.F. Sword",
                     "icon": "B._F._Sword_item.png"
                 },
                 {
@@ -20,6 +55,30 @@
                 {
                     "name": "Giant's Belt",
                     "icon": "Giant_s_Belt_item.png"
+                },
+				{
+                    "name": "Needlessly Large Rod",
+                    "icon": "Needlessly_Large_Rod_TFT_item.png"
+                },
+				{
+                    "name": "Negatron Cloak",
+                    "icon": "Negatron_Cloak_TFT_item.png"
+                },
+				{
+                    "name": "Recurve Bow",
+                    "icon": "Recurve_Bow_TFT_item.png"
+                },
+				{
+                    "name": "Sparring Gloves",
+                    "icon": "Sparring_Gloves_TFT_item.png"
+                },
+				{
+                    "name": "Spatula",
+                    "icon": "Spatula_item.png"
+                },
+				{
+                    "name": "Tear of the Goddess",
+                    "icon": "Tear_of_the_Goddess_TFT_item.png"
                 }
             ]
         },
@@ -27,33 +86,442 @@
         {
             "shadow":
             [
-
+				{
+					"name": "Archdemon's Staff of Immortality",
+					"icon": "Archdemon_s_Staff_of_Immortality_TFT_item.png",
+					"components": ["Shadow Tear", "Shadow Rod"]
+				},
+				{
+					"name": "Banshee's Claw",
+					"icon": "Banshee_s_Claw_TFT_item.png",
+					"components": ["Shadow Belt", "Shadow Gloves"]
+				},
+				{					
+					"name": "Caustic Deathblade",
+					"icon": "Caustic_Deathblade_TFT_item.png",
+					"components": ["Shadow Sword", "Shadow Sword"]
+				},
+				{		
+					"name": "Caustic Quicksilver",
+					"icon": "Caustic_Quicksilver_TFT_item.png",
+					"components": ["Shadow Cloak", "Shadow Gloves"]
+				},
+				{		
+					"name": "Chalice of Malice",
+					"icon": "Chalice_of_Malice_TFT_item.png",
+					"components": ["Shadow Cloak", "Shadow Tear"]
+				},
+				{		
+					"name": "Dark Shroud of Stillness",
+					"icon": "Dark_Shroud_of_Stillness_TFT_item.png",
+					"components": ["Shadow Vest", "Shadow Gloves"]
+				},
+				{		
+					"name": "Eclipse Cape",
+					"icon": "Eclipse_Cape_TFT_item.png",
+					"components": ["Shadow Vest", "Shadow Belt"]
+				},
+				{		
+					"name": "Fallen Guardian Angel",
+					"icon": "Fallen_Guardian_Angel_TFT_item.png",
+					"components": ["Shadow Sword", "Shadow Vest"]
+				},
+				{		
+					"name": "Final Whisper",
+					"icon": "Final_Whisper_TFT_item.png",
+					"components": ["Shadow Gloves", "Shadow Bow"]
+				},
+				{		
+					"name": "Frozen Dark Heart",
+					"icon": "Frozen_Dark_Heart_TFT_item.png",
+					"components": ["Shadow Vest", "Shadow Tear"]
+				},
+				{		
+					"name": "Gargoyle Stoneplate of Immortality",
+					"icon": "Gargoyle_Stoneplate_of_Immortality_TFT_item.png",
+					"components": ["Shadow Vest", "Shadow Cloak"]
+				},
+				{		
+					"name": "Guinsoo's Sacrificial Rageblade",
+					"icon": "Guinsoo_s_Sacrificial_Rageblade_TFT_item.png",
+					"components": ["Shadow Rod", "Shadow Bow"]
+				},
+				{		
+					"name": "Hand of Vengeance",
+					"icon": "Hand_of_Vengeance_TFT_item.png",
+					"components": ["Shadow Tear", "Shadow Gloves"]
+				},
+				{		
+					"name": "Hextech Gunblade of Immortality",
+					"icon": "Hextech_Gunblade_of_Immortality_TFT_item.png",
+					"components": ["Shadow Rod", "Shadow Sword"]
+				},
+				{		
+					"name": "Ionic Dark-Spark",
+					"icon": "Ionic_Dark-Spark_TFT_item.png",
+					"components": ["Shadow Cloak", "Shadow Rod"]	
+				},
+				{	
+					"name": "Locket of the Silver Lunari",
+					"icon": "Locket_of_the_Silver_Lunari_TFT_item.png",
+					"components": ["Shadow Rod", "Shadow Vest"]
+				},
+				{		
+					"name": "Mor-evil-lonomicon",
+					"icon": "Mor-evil-lonomicon_TFT_item.png",
+					"components": ["Shadow Rod", "Shadow Belt"]
+				},
+				{		
+					"name": "Rabadon's Caustic Deathcap",
+					"icon": "Rabadon_s_Caustic_Deathcap_TFT_item.png",
+					"components": ["Shadow Rod", "Shadow Rod"]
+				},
+				{		
+					"name": "Rapid Deathcannon",
+					"icon": "Rapid_Deathcannon_TFT_item.png",
+					"components": ["Shadow Bow", "Shadow Bow"]
+				},
+				{		
+					"name": "Refracted Bramble Vest",
+					"icon": "Refracted_Bramble_Vest_TFT_item.png",
+					"components": ["Shadow Vest", "Shadow Vest"]
+				},
+				{		
+					"name": "Refracted Dragon's Claw",
+					"icon": "Refracted_Dragon_s_Claw_TFT_item.png",
+					"components": ["Shadow Cloak", "Shadow Cloak"]
+				},
+				{		
+					"name": "Riskthirster",
+					"icon": "Riskthirster_TFT_item.png",
+					"components": ["Shadow Sword", "Shadow Cloak"]
+				},
+				{		
+					"name": "Runaan's Untamed Hurricane",
+					"icon": "Runaan_s_Untamed_Hurricane_TFT_item.png",
+					"components": ["Shadow Cloak", "Shadow Bow"]
+				},
+				{		
+					"name": "Sacrificial Gauntlet",
+					"icon": "Sacrificial_Gauntlet_TFT_item.png",
+					"components": ["Shadow Rod", "Shadow Gloves"]
+				},
+				{	
+					
+					"name": "Sacrificial Infinity Edge",
+					"icon": "Sacrificial_Infinity_Edge_TFT_item.png",
+					"components": ["Shadow Sword", "Shadow Gloves"]
+				},
+				{		
+					"name": "Sacrificial Redemption",
+					"icon": "Sacrificial_Redemption_TFT_item.png",
+					"components": ["Shadow Tear", "Shadow Belt"]
+				},
+				{		
+					"name": "Spectral Giantslayer",
+					"icon": "Spectral_Giantslayer_TFT_item.png",
+					"components": ["Shadow Sword", "Shadow Bow"]
+				},
+				{		
+					"name": "Spectral Spear of Shojin",
+					"icon": "Spectral_Spear_of_Shojin_TFT_item.png",
+					"components": ["Shadow Sword", "Shadow Tear"]
+				},
+				{		
+					"name": "Statikk Stiletto",
+					"icon": "Statikk_Stiletto_TFT_item.png",
+					"components": ["Shadow Tear", "Shadow Bow"]
+				},
+				{		
+					"name": "Titan's Revenge",
+					"icon": "Titan_s_Revenge_TFT_item.png",
+					"components": ["Shadow Vest", "Shadow Bow"]
+				},
+				{		
+					"name": "Trickster's Gloves",
+					"icon": "Trickster_s_Gloves_TFT_item.png",
+					"components": ["Shadow Gloves", "Shadow Gloves"]
+				},
+				{		
+					"name": "Turbulent Zephyr",
+					"icon": "Turbulent_Zephyr_TFT_item.png",
+					"components": ["Shadow Belt", "Shadow Cloak"]
+				},
+				{		
+					"name": "Unstable Zz'Rot Portal",
+					"icon": "Unstable_Zz_Rot_Portal_TFT_item.png",
+					"components": ["Shadow Belt", "Shadow Bow"]
+				},
+				{		
+					"name": "Very Dark Blue Buff",
+					"icon": "Very_Dark_Blue_Buff_TFT_item.png",
+					"components": ["Shadow Tear", "Shadow Tear"]
+				},
+				{		
+					"name": "Warmog's Sacrificial Armor",
+					"icon": "Warmog_s_Sacrificial_Armor_TFT_item.png",
+					"components": ["Shadow Belt", "Shadow Belt"]
+				},
+				{		
+					"name": "Zeke's Bleak Herald",
+					"icon": "Zeke_s_Bleak_Herald_TFT_item.png",
+					"components": ["Shadow Sword", "Shadow Belt"]
+				}
             ],
             "spatula":
             [
-
+				{
+					"name": "Abomination Emblem",
+					"icon": "Abomination_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Gloves"]
+				},
+				{	
+					"name": "Assassin Emblem",
+					"icon": "Assassin_Emblem_TFT_item.png",
+					"components": ["Spatula", "Sparring Gloves"]
+				},
+				{		
+					"name": "Cavalier Emblem",
+					"icon": "Cavalier_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Vest"]
+				},
+				{		
+					"name": "Coven Emblem",
+					"icon": "Coven_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Tear"]
+				},
+				{		
+					"name": "Dawnbringer Emblem",
+					"icon": "Dawnbringer_Emblem_TFT_item.png",
+					"components": ["Spatula", "Giant's Belt"]
+				},
+				{	
+					"name": "Dragonslayer Emblem",
+					"icon": "Dragonslayer_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Rod"]
+				},
+				{		
+					"name": "Force of Darkness",
+					"icon": "Force_of_Darkness_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Spatula"]
+				},
+				{		
+					"name": "Force of Nature item.png",
+					"icon": "Force_of_Nature_item.png",
+					"components": ["Spatula", "Spatula"]
+				},
+				{		
+					"name": "Forgotten Emblem",
+					"icon": "Forgotten_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Sword"]
+				},
+				{		
+					"name": "Hellion Emblem",
+					"icon": "Hellion_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Bow"]
+				},
+				{		
+					"name": "Ironclad Emblem",
+					"icon": "Ironclad_Emblem_TFT_item.png",
+					"components": ["Spatula", "Chain Vest"]
+				},
+				{		
+					"name": "Legionnaire Emblem",
+					"icon": "Legionnaire_Emblem_TFT_item.png",
+					"components": ["Spatula", "Recurve Bow"]
+				},
+				{		
+					"name": "Nightbringer Emblem",
+					"icon": "Nightbringer_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Belt"]
+				},
+				{		
+					"name": "Redeemed Emblem",
+					"icon": "Redeemed_Emblem_TFT_item.png",
+					"components": ["Spatula", "Negatron Cloak"]
+				},
+				{		
+					"name": "Renewer Emblem",
+					"icon": "Renewer_Emblem_TFT_item.png",
+					"components": ["Spatula", "Tear of the Goddess"]
+				},
+				{		
+					"name": "Revenant Emblem",
+					"icon": "Revenant_Emblem_TFT_item.png",
+					"components": ["Shadow Spatula", "Shadow Cloak"]
+				},
+				{	
+					"name": "Skirmisher Emblem",
+					"icon": "Skirmisher_Emblem_TFT_item.png",
+					"components": ["Spatula", "B.F. Sword"]
+				},
+				{
+					"name": "Spellweaver Emblem",
+					"icon": "Spellweaver_Emblem_TFT_item.png",
+					"components": ["Spatula", "Needlessly Large Rod"]
+				}
             ],
             "standard":
             [
+				{
+                    "name": "Archangel's Staff",
+                    "icon": "Archangel_s_Staff_item.png",
+                    "components": ["Tear of the Goddess", "Needlessly Large Rod"]
+                },
+				{
+                    "name": "Bloodthirster",
+                    "icon": "Bloodthirster_TFT_item.png",
+                    "components": ["B.F. Sword", "Negatron Cloak"]
+                },
+				{
+                    "name": "Blue Buff",
+                    "icon": "Blue_Buff_TFT_item.png",
+                    "components": ["Tear of the Goddess", "Tear of the Goddess"]
+                },
                 {
                     "name": "Bramble Vest",
                     "icon": "Bramble_Vest_TFT_item.png",
                     "components": ["Chain Vest", "Chain Vest"]
                 },
+				{
+                    "name": "Chalice of Power",
+                    "icon": "Chalice_of_Power_TFT_item.png",
+                    "components": ["Negatron Cloak", "Tear of the Goddess"]
+                },
                 {
                     "name": "Deathblade",
                     "icon": "Deathblade_TFT_item.png",
-                    "components": ["B. F. Sword", "B. F. Sword"]
+                    "components": ["B.F. Sword", "B.F. Sword"]
+                },
+				{
+                    "name": "Dragon's Claw",
+                    "icon": "Dragon_s_Claw_TFT_item.png",
+                    "components": ["Negatron Cloak", "Negatron Cloak"]
+                },
+				{
+                    "name": "Frozen Heart",
+                    "icon": "Frozen_Heart_item.png",
+                    "components": ["Chain Vest", "Tear of the Goddess"]
+                },
+				{
+                    "name": "Gargoyle Stoneplate",
+                    "icon": "Gargoyle_Stoneplate_item.png",
+                    "components": ["Chain Vest", "Negatron Cloak"]
+                },
+				{
+                    "name": "Giant Slayer",
+                    "icon": "Giant_Slayer_item.png",
+                    "components": ["B.F. Sword", "Recurve Bow"]
                 },
                 {
                     "name": "Guardian Angel",
                     "icon": "Guardian_Angel_item.png",
-                    "components": ["B. F. Sword", "Chain Vest"]
+                    "components": ["B.F. Sword", "Chain Vest"]
+                },
+				{
+                    "name": "Guinsoo's Rageblade",
+                    "icon": "Guinsoo_s_Rageblade_item.png",
+                    "components": ["Needlessly Large Rod", "Recurve Bow"]
+                },
+				{
+                    "name": "Hand of Justice",
+                    "icon": "Hand_of_Justice_TFT_item.png",
+                    "components": ["Tear of the Goddess", "Sparring Gloves"]
+                },
+				{
+                    "name": "Hextech Gunblade",
+                    "icon": "Hextech_Gunblade_item.png",
+                    "components": ["Needlessly Large Rod", "B.F. Sword"]
+                },
+				{
+                    "name": "Infinity Edge",
+                    "icon": "Infinity_Edge_TFT_item.png",
+                    "components": ["B.F. Sword", "Sparring Gloves"]
+                },
+				{
+                    "name": "Ionic Spark",
+                    "icon": "Ionic_Spark_item.png",
+                    "components": ["Negatron Cloak", "Needlessly Large Rod"]
+                },
+				{
+                    "name": "Jeweled Gauntlet",
+                    "icon": "Jeweled_Gauntlet_TFT_item.png",
+                    "components": ["Needlessly Large Rod", "Sparring Gloves"]
+                },
+				{
+                    "name": "Locket of the Iron Solari",
+                    "icon": "Locket_of_the_Iron_Solari_TFT_item.png",
+                    "components": ["Needlessly Large Rod", "Chain Vest"]
+                },
+				{
+                    "name": "Morellonomicon",
+                    "icon": "Morellonomicon_TFT_item.png",
+                    "components": ["Needlessly Large Rod", "Giant's Belt"]
+                },
+				{
+                    "name": "Mortal Reminder",
+                    "icon": "Mortal_Reminder_item_old.png",
+                    "components": ["Sparring Gloves", "Recurve Bow"]
+                },
+				{
+                    "name": "Quicksilver",
+                    "icon": "Quicksilver_TFT_item.png",
+                    "components": ["Negatron Cloak", "Sparring Gloves"]
+                },
+				{
+                    "name": "Rabadon's Deathcap",
+                    "icon": "Rabadon_s_Deathcap_TFT_item.png",
+                    "components": ["Needlessly Large Rod", "Needlessly Large Rod"]
+                },
+				{
+                    "name": "Rapid Firecannon",
+                    "icon": "Rapid_Firecannon_item.png",
+                    "components": ["Recurve Bow", "Recurve Bow"]
+                },
+				{
+                    "name": "Redemption",
+                    "icon": "Redemption_item.png",
+                    "components": ["Tear of the Goddess", "Giant's Belt"]
+                },
+				{
+                    "name": "Runaan's Hurricane",
+                    "icon": "Runaan_s_Hurricane_TFT_item.png",
+                    "components": ["Negatron Cloak", "Recurve Bow"]
+                },
+				{
+                    "name": "Shroud of Stillness",
+                    "icon": "Shroud_of_Stillness_TFT_item.png",
+                    "components": ["Chain Vest", "Sparring Gloves"]
+                },
+				{
+                    "name": "Spear of Shojin",
+                    "icon": "Spear_of_Shojin_TFT_item.png",
+                    "components": ["B.F. Sword", "Tear of the Goddess"]
+                },
+				{
+                    "name": "Statikk Shiv",
+                    "icon": "Statikk_Shiv_item.png",
+                    "components": ["Tear of the Goddess", "Recurve Bow"]
                 },
                 {
                     "name": "Sunfire Cape",
                     "icon": "Sunfire_Cape_TFT_item.png",
                     "components": ["Chain Vest", "Giant's Belt"]
+                },
+				{
+                    "name": "Thief's Gloves",
+                    "icon": "Thief_s_Gloves_TFT_item.png",
+                    "components": ["Sparring Gloves", "Sparring Gloves"]
+                },
+				{
+                    "name": "Titan's Resolve",
+                    "icon": "Titan_s_Resolve_TFT_item.png",
+                    "components": ["Chain Vest", "Recurve Bow"]
+                },
+				{
+                    "name": "Trap Claw",
+                    "icon": "Trap_Claw_TFT_item.png",
+                    "components": ["Giant's Belt", "Sparring Gloves"]
                 },
                 {
                     "name": "Warmog's Armor",
@@ -63,7 +531,17 @@
                 {
                     "name": "Zeke's Herald",
                     "icon": "Zeke_s_Herald_item.png",
-                    "components": ["B. F. Sword", "Giant's Belt"]
+                    "components": ["B.F. Sword", "Giant's Belt"]
+                },
+				{
+                    "name": "Zephyr",
+                    "icon": "Zephyr_item.png",
+                    "components": ["Giant's Belt", "Negatron Cloak"]
+                },
+				{
+                    "name": "Zz'Rot Portal",
+                    "icon": "Zz_Rot_Portal_item.png",
+                    "components": ["Giant's Belt", "Recurve Bow"]
                 }
             ]
         }

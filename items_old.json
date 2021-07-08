@@ -1,0 +1,71 @@
+{
+    "items":
+    {
+        "components":
+        {
+            "shadow":
+            [
+
+            ],
+            "standard":
+            [
+                {
+                    "name": "B. F. Sword",
+                    "icon": "B._F._Sword_item.png"
+                },
+                {
+                    "name": "Chain Vest",
+                    "icon": "Chain_Vest_TFT_item.png"
+                },
+                {
+                    "name": "Giant's Belt",
+                    "icon": "Giant_s_Belt_item.png"
+                }
+            ]
+        },
+        "finished":
+        {
+            "shadow":
+            [
+
+            ],
+            "spatula":
+            [
+
+            ],
+            "standard":
+            [
+                {
+                    "name": "Bramble Vest",
+                    "icon": "Bramble_Vest_TFT_item.png",
+                    "components": ["Chain Vest", "Chain Vest"]
+                },
+                {
+                    "name": "Deathblade",
+                    "icon": "Deathblade_TFT_item.png",
+                    "components": ["B. F. Sword", "B. F. Sword"]
+                },
+                {
+                    "name": "Guardian Angel",
+                    "icon": "Guardian_Angel_item.png",
+                    "components": ["B. F. Sword", "Chain Vest"]
+                },
+                {
+                    "name": "Sunfire Cape",
+                    "icon": "Sunfire_Cape_TFT_item.png",
+                    "components": ["Chain Vest", "Giant's Belt"]
+                },
+                {
+                    "name": "Warmog's Armor",
+                    "icon": "Warmog_s_Armor_item.png",
+                    "components": ["Giant's Belt", "Giant's Belt"]
+                },
+                {
+                    "name": "Zeke's Herald",
+                    "icon": "Zeke_s_Herald_item.png",
+                    "components": ["B. F. Sword", "Giant's Belt"]
+                }
+            ]
+        }
+    }
+}
