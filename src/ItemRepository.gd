@@ -4,7 +4,7 @@ extends Node
 var components: Dictionary
 var finished: Dictionary
 
-const ITEM_FILE_PATH: String = "items.json"
+const ITEM_FILE_PATH: String = "res://assets/data/items.json"
 
 
 func _init():
